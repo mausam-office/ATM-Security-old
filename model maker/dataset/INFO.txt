@@ -1,0 +1,4 @@
+annotations folder consists of annotations of all the images
+images folder consists of all the images
+train folder consists of all the images for training
+test folder consists of all the images for validating during training
