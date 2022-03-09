@@ -36,18 +36,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>screen</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>169</xmin>
-			<ymin>53</ymin>
-			<xmax>456</xmax>
-			<ymax>121</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>phone</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
