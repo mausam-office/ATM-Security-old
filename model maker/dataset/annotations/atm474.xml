@@ -1,0 +1,26 @@
+<annotation>
+	<folder>renamed</folder>
+	<filename>atm474.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\renamed\atm474.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>379</width>
+		<height>549</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>robbery mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>98</xmin>
+			<ymin>79</ymin>
+			<xmax>246</xmax>
+			<ymax>319</ymax>
+		</bndbox>
+	</object>
+</annotation>

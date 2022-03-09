@@ -1,3 +1,4 @@
+# Run this file from Anaconda Promt
 import os, random, shutil
 try:
     os.mkdir('dataset/train')
