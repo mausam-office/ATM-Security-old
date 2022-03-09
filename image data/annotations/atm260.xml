@@ -24,18 +24,6 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>screen</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>71</xmin>
-			<ymin>30</ymin>
-			<xmax>287</xmax>
-			<ymax>255</ymax>
-		</bndbox>
-	</object>
-	<object>
 		<name>keyboard</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
