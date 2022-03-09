@@ -1,0 +1,26 @@
+<annotation>
+	<folder>renamed</folder>
+	<filename>atm525.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\renamed\atm525.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>612</width>
+		<height>408</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>gun</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>300</xmin>
+			<ymin>167</ymin>
+			<xmax>399</xmax>
+			<ymax>337</ymax>
+		</bndbox>
+	</object>
+</annotation>

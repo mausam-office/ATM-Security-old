@@ -1,0 +1,26 @@
+<annotation>
+	<folder>renamed</folder>
+	<filename>atm470.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\renamed\atm470.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>612</width>
+		<height>408</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>gun</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>1</difficult>
+		<bndbox>
+			<xmin>129</xmin>
+			<ymin>57</ymin>
+			<xmax>394</xmax>
+			<ymax>408</ymax>
+		</bndbox>
+	</object>
+</annotation>

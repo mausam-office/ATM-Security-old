@@ -36,7 +36,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>mobile</name>
+		<name>phone</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>

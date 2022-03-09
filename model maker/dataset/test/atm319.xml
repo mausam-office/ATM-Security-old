@@ -1,0 +1,38 @@
+<annotation>
+	<folder>renamed</folder>
+	<filename>atm319.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\renamed\atm319.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>612</width>
+		<height>408</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mouse</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>70</xmin>
+			<ymin>215</ymin>
+			<xmax>246</xmax>
+			<ymax>349</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>keyboard</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>232</xmin>
+			<ymin>152</ymin>
+			<xmax>563</xmax>
+			<ymax>274</ymax>
+		</bndbox>
+	</object>
+</annotation>

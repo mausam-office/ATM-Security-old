@@ -1,0 +1,26 @@
+<annotation>
+	<folder>renamed</folder>
+	<filename>atm461.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\renamed\atm461.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>612</width>
+		<height>481</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>smoke</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>99</xmin>
+			<ymin>69</ymin>
+			<xmax>534</xmax>
+			<ymax>396</ymax>
+		</bndbox>
+	</object>
+</annotation>

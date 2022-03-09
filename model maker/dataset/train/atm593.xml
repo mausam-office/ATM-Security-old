@@ -1,0 +1,38 @@
+<annotation>
+	<folder>renamed</folder>
+	<filename>atm593.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\renamed\atm593.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>612</width>
+		<height>408</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>smoke</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>23</xmin>
+			<ymin>238</ymin>
+			<xmax>155</xmax>
+			<ymax>349</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>smoke</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>325</xmin>
+			<ymin>42</ymin>
+			<xmax>537</xmax>
+			<ymax>325</ymax>
+		</bndbox>
+	</object>
+</annotation>

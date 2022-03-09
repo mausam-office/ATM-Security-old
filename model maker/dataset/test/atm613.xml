@@ -1,0 +1,38 @@
+<annotation>
+	<folder>renamed</folder>
+	<filename>atm613.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\renamed\atm613.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1600</width>
+		<height>1168</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>528</xmin>
+			<ymin>81</ymin>
+			<xmax>1369</xmax>
+			<ymax>1069</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hammer</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>263</xmin>
+			<ymin>393</ymin>
+			<xmax>461</xmax>
+			<ymax>902</ymax>
+		</bndbox>
+	</object>
+</annotation>
