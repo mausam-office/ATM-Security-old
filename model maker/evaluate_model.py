@@ -23,7 +23,7 @@ from PIL import Image
 #for label_id, label_name in label_map.as_dict().items():
 #  classes[label_id-1] = label_name
 
-classes = ['1head', '1tail', '5head', '5tail','10head', '10tail']   # <- updated this with classes on which the model is trained on.
+classes = ['hammer', 'mask', 'person', 'smoke', 'knife', 'robbery mask', 'gun', 'driller', 'keyboard', 'phone', 'screwdriver', 'laptop', 'mouse', 'helmet']   # <- updated this with classes on which the model is trained on.
 
 # Define a list of colors for visualization
 COLORS = np.random.randint(0, 255, size=(len(classes), 3), dtype=np.uint8)
