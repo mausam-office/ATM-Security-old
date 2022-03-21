@@ -1,10 +1,10 @@
 import numpy as np
 import os
 
-from tflite_model_maker.config import ExportFormat
+""" from tflite_model_maker.config import ExportFormat
 from tflite_model_maker import model_spec
 from tflite_model_maker import object_detector
-
+ """
 import tensorflow as tf
 assert tf.__version__.startswith('2')
 
@@ -15,7 +15,7 @@ logging.set_verbosity(logging.ERROR)
 # Load the trained TFLite model and define some visualization functions:
 import cv2
 from PIL import Image
-import imutils
+
 
 
 # Load the labels into a list
@@ -24,7 +24,7 @@ import imutils
 #for label_id, label_name in label_map.as_dict().items():
 #  classes[label_id-1] = label_name
 
-classes = ['1head', '1tail', '5head', '5tail','10head', '10tail']   # <- updated this with classes on which the model is trained on.
+classes = ['hammer', 'mask', 'person', 'smoke', 'knife', 'robbery mask', 'gun', 'driller', 'keyboard', 'phone', 'screwdriver', 'laptop', 'mouse', 'helmet']   # <- updated this with classes on which the model is trained on.
 
 # Define a list of colors for visualization
 COLORS = np.random.randint(0, 255, size=(len(classes), 3), dtype=np.uint8)
@@ -136,6 +136,9 @@ def main(model_path, INPUT_IMAGE_URL, DETECTION_THRESHOLD):
     )
 
     # Show the detection result
-    img = Image.fromarray(detection_result_image)
+    """ img = Image.fromarray(detection_result_image)
     img.show()
-    img.save("./detection/result.jpg")
+    img.save("./detection/result.jpg") """
+    cv2.imshow('frame detection', detection_result_image)
+    
+    

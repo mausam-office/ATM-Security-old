@@ -1,9 +1,9 @@
 import numpy as np
 import os
 
-from tflite_model_maker.config import ExportFormat
+""" from tflite_model_maker.config import ExportFormat
 from tflite_model_maker import model_spec
-from tflite_model_maker import object_detector
+from tflite_model_maker import object_detector """
 
 import tensorflow as tf
 assert tf.__version__.startswith('2')
@@ -120,25 +120,25 @@ def run_odt_and_draw_results(image_path, interpreter, threshold=0.5):
 	return original_uint8
 
 
-def main(model_path, INPUT_IMAGE_URL, DETECTION_THRESHOLD):
-	model_path = model_path
 
-	INPUT_IMAGE_URL = INPUT_IMAGE_URL
-	DETECTION_THRESHOLD = DETECTION_THRESHOLD
+model_path = './models/atm_150_16_lite0_mm/atm_150_16_lite0_mm.tflite'
+
+INPUT_IMAGE_URL = "../test images/14.jpg"
+DETECTION_THRESHOLD = 0.5
 
 
-	# Load the TFLite model
-	interpreter = tf.lite.Interpreter(model_path=model_path)
-	interpreter.allocate_tensors()
+# Load the TFLite model
+interpreter = tf.lite.Interpreter(model_path=model_path)
+interpreter.allocate_tensors()
 
-	# Run inference and draw detection result on the local copy of the original file
-	detection_result_image = run_odt_and_draw_results(
-		INPUT_IMAGE_URL, 
-		interpreter, 
-		threshold=DETECTION_THRESHOLD
-	)
+# Run inference and draw detection result on the local copy of the original file
+detection_result_image = run_odt_and_draw_results(
+	INPUT_IMAGE_URL, 
+	interpreter, 
+	threshold=DETECTION_THRESHOLD
+)
 
-	# Show the detection result
-	img = Image.fromarray(detection_result_image)
-	#img.show()
-	img.save("./detection/result.jpg")
+# Show the detection result
+img = Image.fromarray(detection_result_image)
+#img.show()
+img.save("./detection/result.jpg")
