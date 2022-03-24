@@ -1,0 +1,38 @@
+<annotation>
+	<folder>images</folder>
+	<filename>atm80.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\atm80.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>408</width>
+		<height>612</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>74</xmin>
+			<ymin>171</ymin>
+			<xmax>407</xmax>
+			<ymax>612</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>knife</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>41</xmin>
+			<ymin>36</ymin>
+			<xmax>159</xmax>
+			<ymax>352</ymax>
+		</bndbox>
+	</object>
+</annotation>

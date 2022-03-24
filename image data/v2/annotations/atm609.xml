@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>atm609.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\atm609.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>408</width>
+		<height>612</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>hammer</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>10</xmin>
+			<ymin>102</ymin>
+			<xmax>408</xmax>
+			<ymax>440</ymax>
+		</bndbox>
+	</object>
+</annotation>

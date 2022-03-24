@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>atm390.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\atm390.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>612</width>
+		<height>344</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pistol</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>247</xmin>
+			<ymin>125</ymin>
+			<xmax>352</xmax>
+			<ymax>319</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>atm_v2_321.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\atm_v2_321.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>366</width>
+		<height>460</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>screwdriver</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>88</xmin>
+			<ymin>27</ymin>
+			<xmax>261</xmax>
+			<ymax>308</ymax>
+		</bndbox>
+	</object>
+</annotation>

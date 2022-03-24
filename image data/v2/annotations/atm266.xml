@@ -1,0 +1,38 @@
+<annotation>
+	<folder>images</folder>
+	<filename>atm266.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\atm266.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>402</width>
+		<height>612</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>119</xmin>
+			<ymin>128</ymin>
+			<xmax>305</xmax>
+			<ymax>595</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>knife</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>178</xmin>
+			<ymin>230</ymin>
+			<xmax>227</xmax>
+			<ymax>332</ymax>
+		</bndbox>
+	</object>
+</annotation>

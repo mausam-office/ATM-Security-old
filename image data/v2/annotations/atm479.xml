@@ -1,0 +1,38 @@
+<annotation>
+	<folder>images</folder>
+	<filename>atm479.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\atm479.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>612</width>
+		<height>408</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>154</xmin>
+			<ymin>22</ymin>
+			<xmax>385</xmax>
+			<ymax>307</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>112</xmin>
+			<ymin>26</ymin>
+			<xmax>446</xmax>
+			<ymax>408</ymax>
+		</bndbox>
+	</object>
+</annotation>

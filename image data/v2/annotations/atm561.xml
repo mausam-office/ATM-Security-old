@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>atm561.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\atm561.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>612</width>
+		<height>459</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>keyboard</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>192</xmin>
+			<ymin>65</ymin>
+			<xmax>612</xmax>
+			<ymax>373</ymax>
+		</bndbox>
+	</object>
+</annotation>

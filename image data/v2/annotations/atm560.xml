@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>atm560.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\atm560.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>391</width>
+		<height>303</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>smoke</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>5</xmin>
+			<ymin>13</ymin>
+			<xmax>390</xmax>
+			<ymax>281</ymax>
+		</bndbox>
+	</object>
+</annotation>

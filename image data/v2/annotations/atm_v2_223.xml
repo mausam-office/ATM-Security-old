@@ -1,0 +1,38 @@
+<annotation>
+	<folder>images</folder>
+	<filename>atm_v2_223.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\atm_v2_223.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>957</width>
+		<height>1300</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>90</xmin>
+			<ymin>68</ymin>
+			<xmax>829</xmax>
+			<ymax>1300</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>knife</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>198</xmin>
+			<ymin>465</ymin>
+			<xmax>432</xmax>
+			<ymax>905</ymax>
+		</bndbox>
+	</object>
+</annotation>

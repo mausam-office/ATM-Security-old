@@ -1,0 +1,50 @@
+<annotation>
+	<folder>images</folder>
+	<filename>atm596.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\atm596.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>540</width>
+		<height>360</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>101</xmin>
+			<ymin>39</ymin>
+			<xmax>345</xmax>
+			<ymax>360</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>robbery mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>176</xmin>
+			<ymin>42</ymin>
+			<xmax>305</xmax>
+			<ymax>235</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pistol</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>348</xmin>
+			<ymin>70</ymin>
+			<xmax>433</xmax>
+			<ymax>254</ymax>
+		</bndbox>
+	</object>
+</annotation>

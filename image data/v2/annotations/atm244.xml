@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>atm244.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\atm244.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>408</width>
+		<height>612</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>keyboard</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>93</xmin>
+			<ymin>70</ymin>
+			<xmax>352</xmax>
+			<ymax>388</ymax>
+		</bndbox>
+	</object>
+</annotation>

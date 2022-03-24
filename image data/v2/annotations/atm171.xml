@@ -1,0 +1,38 @@
+<annotation>
+	<folder>images</folder>
+	<filename>atm171.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\atm171.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>494</width>
+		<height>612</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>hammer</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>18</xmin>
+			<ymin>31</ymin>
+			<xmax>331</xmax>
+			<ymax>520</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>screwdriver</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>305</xmin>
+			<ymin>105</ymin>
+			<xmax>469</xmax>
+			<ymax>380</ymax>
+		</bndbox>
+	</object>
+</annotation>

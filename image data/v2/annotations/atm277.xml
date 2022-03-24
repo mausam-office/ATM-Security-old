@@ -1,0 +1,38 @@
+<annotation>
+	<folder>images</folder>
+	<filename>atm277.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\atm277.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>612</width>
+		<height>406</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mouse</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>178</xmin>
+			<ymin>206</ymin>
+			<xmax>384</xmax>
+			<ymax>293</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>keyboard</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>307</ymin>
+			<xmax>283</xmax>
+			<ymax>406</ymax>
+		</bndbox>
+	</object>
+</annotation>

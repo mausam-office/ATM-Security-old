@@ -1,0 +1,38 @@
+<annotation>
+	<folder>images</folder>
+	<filename>atm583.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\atm583.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>612</width>
+		<height>408</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>phone</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>218</xmin>
+			<ymin>297</ymin>
+			<xmax>401</xmax>
+			<ymax>408</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>keyboard</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>60</xmin>
+			<ymin>34</ymin>
+			<xmax>321</xmax>
+			<ymax>241</ymax>
+		</bndbox>
+	</object>
+</annotation>

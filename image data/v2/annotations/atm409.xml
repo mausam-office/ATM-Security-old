@@ -1,0 +1,38 @@
+<annotation>
+	<folder>images</folder>
+	<filename>atm409.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\atm409.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>408</width>
+		<height>612</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pistol</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>89</xmin>
+			<ymin>1</ymin>
+			<xmax>317</xmax>
+			<ymax>612</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>robbery mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>213</xmin>
+			<ymin>5</ymin>
+			<xmax>311</xmax>
+			<ymax>135</ymax>
+		</bndbox>
+	</object>
+</annotation>
