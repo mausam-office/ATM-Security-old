@@ -13,8 +13,9 @@ def get_params():
     params = dict()
     
     #params["model_path"] = './models/atm_74_8_lite0_mm/atm_74_8_lite0_mm.tflite'
-    params["model_path"] = './models/atm_150_16_lite0_mm/atm_150_16_lite0_mm.tflite'
+    #params["model_path"] = './models/atm_150_16_lite0_mm/atm_150_16_lite0_mm.tflite'
     #params["model_path"] = './models/atm_173_4_lite1_mm/atm_173_4_lite1_mm.tflite'
+    params["model_path"] = './models/atm_v2_best_4_lite0_mm/model.tflite'
 
     params["img_path"] = "../test images/test.jpg"
     params["frame_path"] = "./images/frame.jpg"

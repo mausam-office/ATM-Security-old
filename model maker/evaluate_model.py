@@ -1,3 +1,4 @@
+"""Evaluates single image at a time"""
 import numpy as np
 import os
 

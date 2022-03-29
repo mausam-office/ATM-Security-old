@@ -11,7 +11,7 @@ tf.get_logger().setLevel('ERROR')
 from absl import logging
 logging.set_verbosity(logging.ERROR)
 
-classes = ['hammer', 'mask', 'person', 'smoke', 'knife', 'robbery mask', 'gun', 'driller', 'keyboard', 'phone', 'screwdriver', 'laptop', 'mouse', 'helmet']
+classes = ['hammer', 'mask', 'person', 'smoke', 'knife', 'robbery mask', 'pistol', 'driller', 'keyboard', 'phone', 'screwdriver', 'laptop', 'mouse', 'helmet']
 train_data = object_detector.DataLoader.from_pascal_voc('dataset/train', 'dataset/train', classes)
 validation_data = object_detector.DataLoader.from_pascal_voc('dataset/test', 'dataset/test', classes)
 

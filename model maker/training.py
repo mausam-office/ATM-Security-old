@@ -2,8 +2,8 @@ import numpy as np
 import os
 import time
 
-""" from tflite_model_maker.config import ExportFormat
-from tflite_model_maker import model_spec """
+#from tflite_model_maker.config import ExportFormat
+from tflite_model_maker import model_spec
 from tflite_model_maker import object_detector
 
 import tensorflow as tf
@@ -15,24 +15,24 @@ logging.set_verbosity(logging.ERROR)
 
 
 # select model architecture
-#spec = model_spec.get('efficientdet_lite0')
-spec = object_detector.EfficientDetSpec(
-  model_name='efficientdet-lite1',
-  uri='https://tfhub.dev/tensorflow/efficientdet/lite1/feature-vector/1', 
-  hparams={'max_instances_per_image': 50})
+spec = model_spec.get('efficientdet_lite2')
+""" spec = object_detector.EfficientDetSpec(
+  model_name='efficientdet-lite0', 
+  uri='https://tfhub.dev/tensorflow/efficientdet/lite0/feature-vector/1', 
+  hparams={'max_instances_per_image': 40}) """
 
 # Load the dataset
-labels = ['hammer', 'mask', 'person', 'smoke', 'knife', 'robbery mask', 'gun', 'driller', 'keyboard', 'phone', 'screwdriver', 'laptop', 'mouse', 'helmet']
+labels = ['hammer', 'mask', 'person', 'smoke', 'knife', 'robbery mask', 'pistol', 'driller', 'keyboard', 'phone', 'screwdriver', 'laptop', 'mouse', 'helmet']
 train_data = object_detector.DataLoader.from_pascal_voc(images_dir='dataset/train', annotations_dir='dataset/train', label_map=labels)
 validation_data = object_detector.DataLoader.from_pascal_voc(images_dir='dataset/test', annotations_dir='dataset/test', label_map=labels)
 
 # Training of tensorflow lite model 
-model = object_detector.create(train_data, model_spec=spec, epochs = 1000, batch_size=4, train_whole_model=True, validation_data=validation_data, do_train=True)
+model = object_detector.create(train_data, model_spec=spec, epochs = 1000, batch_size=2, train_whole_model=True, validation_data=validation_data, do_train=True)
 
 time.sleep(10)
 # Model evaluation on test data
 model.evaluate(validation_data)
 
 # Export tensorflow model
-model.export(export_dir='./models/atm_best_4_lite1_mm')
+model.export(export_dir='./models/atm_v2_best_2_lite2_mm')
 

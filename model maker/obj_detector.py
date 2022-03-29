@@ -1,3 +1,4 @@
+"""Provides detection in real time"""
 import numpy as np
 import os
 
