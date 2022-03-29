@@ -152,7 +152,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             .build()
         val detector = ObjectDetector.createFromFileAndOptions(
             this,
-            "atm_74_8_lite0_mm.tflite",
+            "atm_v2_105_4_lite1_mm.tflite",
             options
         )
 
