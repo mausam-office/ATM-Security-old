@@ -1,7 +1,7 @@
 <annotation>
-	<folder>renamed</folder>
+	<folder>images</folder>
 	<filename>atm404.jpg</filename>
-	<path>D:\Anaconda\ATM Security\image data\renamed\atm404.jpg</path>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\atm404.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -45,6 +45,18 @@
 			<ymin>87</ymin>
 			<xmax>116</xmax>
 			<ymax>176</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>keyboard</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>188</xmin>
+			<ymin>93</ymin>
+			<xmax>358</xmax>
+			<ymax>132</ymax>
 		</bndbox>
 	</object>
 </annotation>

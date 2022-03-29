@@ -1,7 +1,7 @@
 <annotation>
-	<folder>renamed</folder>
+	<folder>images</folder>
 	<filename>atm493.jpg</filename>
-	<path>D:\Anaconda\ATM Security\image data\renamed\atm493.jpg</path>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\atm493.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -45,6 +45,18 @@
 			<ymin>61</ymin>
 			<xmax>371</xmax>
 			<ymax>185</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>mouse</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>167</xmin>
+			<ymin>186</ymin>
+			<xmax>189</xmax>
+			<ymax>212</ymax>
 		</bndbox>
 	</object>
 </annotation>

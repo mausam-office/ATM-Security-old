@@ -1,12 +1,12 @@
 <annotation>
-	<folder>renamed</folder>
+	<folder>images</folder>
 	<filename>atm166.jpg</filename>
-	<path>D:\Anaconda\ATM Security\image data\renamed\atm166.jpg</path>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\atm166.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>612</width>
+		<width>468</width>
 		<height>335</height>
 		<depth>3</depth>
 	</size>

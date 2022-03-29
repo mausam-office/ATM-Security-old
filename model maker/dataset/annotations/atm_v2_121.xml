@@ -1,0 +1,38 @@
+<annotation>
+	<folder>images</folder>
+	<filename>atm_v2_121.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\atm_v2_121.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2160</width>
+		<height>4096</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1032</xmin>
+			<ymin>534</ymin>
+			<xmax>2079</xmax>
+			<ymax>2013</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>driller</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1223</xmin>
+			<ymin>1143</ymin>
+			<xmax>1527</xmax>
+			<ymax>1487</ymax>
+		</bndbox>
+	</object>
+</annotation>

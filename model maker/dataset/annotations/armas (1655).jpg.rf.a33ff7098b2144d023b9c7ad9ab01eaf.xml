@@ -1,0 +1,50 @@
+<annotation>
+	<folder>images</folder>
+	<filename>armas (1655).jpg.rf.a33ff7098b2144d023b9c7ad9ab01eaf.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\armas (1655).jpg.rf.a33ff7098b2144d023b9c7ad9ab01eaf.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pistol</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>174</xmin>
+			<ymin>127</ymin>
+			<xmax>260</xmax>
+			<ymax>340</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>13</ymin>
+			<xmax>308</xmax>
+			<ymax>416</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>smoke</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>195</xmin>
+			<ymin>30</ymin>
+			<xmax>234</xmax>
+			<ymax>103</ymax>
+		</bndbox>
+	</object>
+</annotation>

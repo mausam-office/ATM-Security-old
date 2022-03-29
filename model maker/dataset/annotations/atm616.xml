@@ -1,7 +1,7 @@
 <annotation>
-	<folder>renamed</folder>
+	<folder>images</folder>
 	<filename>atm616.jpg</filename>
-	<path>D:\Anaconda\ATM Security\image data\renamed\atm616.jpg</path>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\atm616.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -54,8 +54,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>150</xmin>
-			<ymin>143</ymin>
-			<xmax>211</xmax>
+			<ymin>142</ymin>
+			<xmax>212</xmax>
 			<ymax>222</ymax>
 		</bndbox>
 	</object>
@@ -66,8 +66,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>302</xmin>
-			<ymin>97</ymin>
-			<xmax>352</xmax>
+			<ymin>85</ymin>
+			<xmax>362</xmax>
 			<ymax>164</ymax>
 		</bndbox>
 	</object>
@@ -78,9 +78,21 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>402</xmin>
-			<ymin>169</ymin>
-			<xmax>456</xmax>
+			<ymin>168</ymin>
+			<xmax>482</xmax>
 			<ymax>255</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>phone</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>324</xmin>
+			<ymin>340</ymin>
+			<xmax>381</xmax>
+			<ymax>376</ymax>
 		</bndbox>
 	</object>
 </annotation>

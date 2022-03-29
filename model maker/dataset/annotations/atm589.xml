@@ -1,7 +1,7 @@
 <annotation>
-	<folder>renamed</folder>
+	<folder>images</folder>
 	<filename>atm589.jpg</filename>
-	<path>D:\Anaconda\ATM Security\image data\renamed\atm589.jpg</path>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\atm589.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -29,10 +29,22 @@
 		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>263</xmin>
+			<xmin>262</xmin>
 			<ymin>3</ymin>
-			<xmax>612</xmax>
+			<xmax>611</xmax>
 			<ymax>408</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>screwdriver</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3</xmin>
+			<ymin>323</ymin>
+			<xmax>60</xmax>
+			<ymax>349</ymax>
 		</bndbox>
 	</object>
 </annotation>

@@ -1,7 +1,7 @@
 <annotation>
-	<folder>renamed</folder>
+	<folder>images</folder>
 	<filename>atm523.jpg</filename>
-	<path>D:\Anaconda\ATM Security\image data\renamed\atm523.jpg</path>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\atm523.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -14,13 +14,13 @@
 	<object>
 		<name>hammer</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>4</xmin>
-			<ymin>3</ymin>
-			<xmax>274</xmax>
-			<ymax>179</ymax>
+			<xmin>6</xmin>
+			<ymin>5</ymin>
+			<xmax>270</xmax>
+			<ymax>177</ymax>
 		</bndbox>
 	</object>
 </annotation>

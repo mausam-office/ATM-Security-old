@@ -1,0 +1,38 @@
+<annotation>
+	<folder>images</folder>
+	<filename>armas (1691).jpg.rf.786936ef0b75a86454d57262aa57a4fa.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\armas (1691).jpg.rf.786936ef0b75a86454d57262aa57a4fa.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>416</width>
+		<height>416</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pistol</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>176</xmin>
+			<ymin>175</ymin>
+			<xmax>217</xmax>
+			<ymax>234</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>240</xmin>
+			<ymin>58</ymin>
+			<xmax>416</xmax>
+			<ymax>416</ymax>
+		</bndbox>
+	</object>
+</annotation>
