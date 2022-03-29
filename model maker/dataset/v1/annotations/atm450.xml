@@ -1,0 +1,38 @@
+<annotation>
+	<folder>renamed</folder>
+	<filename>atm450.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\renamed\atm450.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1200</width>
+		<height>896</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>586</xmin>
+			<ymin>77</ymin>
+			<xmax>1030</xmax>
+			<ymax>896</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>hammer</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>395</xmin>
+			<ymin>218</ymin>
+			<xmax>573</xmax>
+			<ymax>617</ymax>
+		</bndbox>
+	</object>
+</annotation>

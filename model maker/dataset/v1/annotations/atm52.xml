@@ -1,0 +1,26 @@
+<annotation>
+	<folder>renamed</folder>
+	<filename>atm52.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\renamed\atm52.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>612</width>
+		<height>408</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>hammer</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>335</xmin>
+			<ymin>120</ymin>
+			<xmax>551</xmax>
+			<ymax>408</ymax>
+		</bndbox>
+	</object>
+</annotation>
