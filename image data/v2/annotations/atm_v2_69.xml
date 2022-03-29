@@ -14,13 +14,13 @@
 	<object>
 		<name>person</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>3</xmin>
 			<ymin>106</ymin>
-			<xmax>1080</xmax>
-			<ymax>1364</ymax>
+			<xmax>861</xmax>
+			<ymax>1347</ymax>
 		</bndbox>
 	</object>
 	<object>

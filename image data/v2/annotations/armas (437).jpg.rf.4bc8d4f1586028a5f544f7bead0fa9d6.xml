@@ -1,9 +1,9 @@
 <annotation>
-	<folder></folder>
+	<folder>images</folder>
 	<filename>armas (437).jpg.rf.4bc8d4f1586028a5f544f7bead0fa9d6.jpg</filename>
-	<path>armas (437).jpg.rf.4bc8d4f1586028a5f544f7bead0fa9d6.jpg</path>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\armas (437).jpg.rf.4bc8d4f1586028a5f544f7bead0fa9d6.jpg</path>
 	<source>
-		<database>roboflow.ai</database>
+		<database>Unknown</database>
 	</source>
 	<size>
 		<width>416</width>
@@ -16,12 +16,23 @@
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
-		<occluded>0</occluded>
 		<bndbox>
 			<xmin>38</xmin>
-			<xmax>106</xmax>
 			<ymin>115</ymin>
+			<xmax>106</xmax>
 			<ymax>154</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>143</xmin>
+			<ymin>49</ymin>
+			<xmax>308</xmax>
+			<ymax>403</ymax>
 		</bndbox>
 	</object>
 </annotation>

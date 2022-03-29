@@ -1,9 +1,9 @@
 <annotation>
-	<folder></folder>
+	<folder>images</folder>
 	<filename>armas (881).jpg.rf.153588091866d1d589ab2bf4017837b5.jpg</filename>
-	<path>armas (881).jpg.rf.153588091866d1d589ab2bf4017837b5.jpg</path>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\armas (881).jpg.rf.153588091866d1d589ab2bf4017837b5.jpg</path>
 	<source>
-		<database>roboflow.ai</database>
+		<database>Unknown</database>
 	</source>
 	<size>
 		<width>416</width>
@@ -16,12 +16,59 @@
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
-		<occluded>0</occluded>
 		<bndbox>
 			<xmin>184</xmin>
-			<xmax>235</xmax>
 			<ymin>37</ymin>
+			<xmax>235</xmax>
 			<ymax>89</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>19</xmin>
+			<ymin>34</ymin>
+			<xmax>117</xmax>
+			<ymax>377</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>84</xmin>
+			<ymin>48</ymin>
+			<xmax>205</xmax>
+			<ymax>378</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>249</xmin>
+			<ymin>1</ymin>
+			<xmax>397</xmax>
+			<ymax>378</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>robbery mask</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>303</xmin>
+			<ymin>4</ymin>
+			<xmax>362</xmax>
+			<ymax>95</ymax>
 		</bndbox>
 	</object>
 </annotation>

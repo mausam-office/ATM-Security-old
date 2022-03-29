@@ -1,4 +1,4 @@
-<annotation verified="yes">
+<annotation>
 	<folder>images</folder>
 	<filename>atm49.jpg</filename>
 	<path>D:\Anaconda\ATM Security\image data\v2\images\atm49.jpg</path>
@@ -29,10 +29,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>20</xmin>
+			<xmin>19</xmin>
 			<ymin>2</ymin>
 			<xmax>89</xmax>
-			<ymax>411</ymax>
+			<ymax>413</ymax>
 		</bndbox>
 	</object>
 </annotation>
