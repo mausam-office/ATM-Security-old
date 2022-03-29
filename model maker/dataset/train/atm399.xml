@@ -1,26 +1,26 @@
 <annotation>
-	<folder>renamed</folder>
+	<folder>images</folder>
 	<filename>atm399.jpg</filename>
-	<path>D:\Anaconda\ATM Security\image data\renamed\atm399.jpg</path>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\atm399.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
 		<width>408</width>
-		<height>612</height>
+		<height>205</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
 	<object>
 		<name>mouse</name>
 		<pose>Unspecified</pose>
-		<truncated>0</truncated>
+		<truncated>1</truncated>
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>17</xmin>
-			<ymin>212</ymin>
+			<ymin>205</ymin>
 			<xmax>147</xmax>
-			<ymax>439</ymax>
+			<ymax>205</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -32,7 +32,7 @@
 			<xmin>77</xmin>
 			<ymin>1</ymin>
 			<xmax>408</xmax>
-			<ymax>187</ymax>
+			<ymax>186</ymax>
 		</bndbox>
 	</object>
 </annotation>

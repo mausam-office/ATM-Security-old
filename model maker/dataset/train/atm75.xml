@@ -1,7 +1,7 @@
 <annotation>
-	<folder>renamed</folder>
+	<folder>images</folder>
 	<filename>atm75.jpg</filename>
-	<path>D:\Anaconda\ATM Security\image data\renamed\atm75.jpg</path>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\atm75.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -19,20 +19,20 @@
 		<bndbox>
 			<xmin>68</xmin>
 			<ymin>180</ymin>
-			<xmax>105</xmax>
-			<ymax>404</ymax>
+			<xmax>102</xmax>
+			<ymax>399</ymax>
 		</bndbox>
 	</object>
 	<object>
 		<name>screwdriver</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>136</xmin>
+			<xmin>137</xmin>
 			<ymin>154</ymin>
 			<xmax>170</xmax>
-			<ymax>406</ymax>
+			<ymax>399</ymax>
 		</bndbox>
 	</object>
 	<object>
@@ -54,8 +54,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>295</xmin>
-			<ymin>88</ymin>
-			<xmax>344</xmax>
+			<ymin>90</ymin>
+			<xmax>343</xmax>
 			<ymax>402</ymax>
 		</bndbox>
 	</object>
@@ -66,8 +66,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>385</xmin>
-			<ymin>18</ymin>
-			<xmax>435</xmax>
+			<ymin>21</ymin>
+			<xmax>433</xmax>
 			<ymax>400</ymax>
 		</bndbox>
 	</object>

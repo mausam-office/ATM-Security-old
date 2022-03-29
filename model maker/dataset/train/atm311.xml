@@ -1,7 +1,7 @@
 <annotation>
-	<folder>renamed</folder>
+	<folder>images</folder>
 	<filename>atm311.jpg</filename>
-	<path>D:\Anaconda\ATM Security\image data\renamed\atm311.jpg</path>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\atm311.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -65,9 +65,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>332</xmin>
+			<xmin>333</xmin>
 			<ymin>50</ymin>
-			<xmax>432</xmax>
+			<xmax>433</xmax>
 			<ymax>199</ymax>
 		</bndbox>
 	</object>
@@ -77,8 +77,8 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>99</xmin>
-			<ymin>93</ymin>
+			<xmin>96</xmin>
+			<ymin>81</ymin>
 			<xmax>171</xmax>
 			<ymax>173</ymax>
 		</bndbox>
@@ -90,7 +90,7 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>177</xmin>
-			<ymin>91</ymin>
+			<ymin>74</ymin>
 			<xmax>236</xmax>
 			<ymax>157</ymax>
 		</bndbox>
@@ -102,8 +102,8 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>253</xmin>
-			<ymin>100</ymin>
-			<xmax>327</xmax>
+			<ymin>71</ymin>
+			<xmax>328</xmax>
 			<ymax>185</ymax>
 		</bndbox>
 	</object>
@@ -114,7 +114,7 @@
 		<difficult>0</difficult>
 		<bndbox>
 			<xmin>372</xmin>
-			<ymin>79</ymin>
+			<ymin>52</ymin>
 			<xmax>429</xmax>
 			<ymax>131</ymax>
 		</bndbox>
@@ -125,9 +125,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>435</xmin>
-			<ymin>137</ymin>
-			<xmax>498</xmax>
+			<xmin>433</xmin>
+			<ymin>87</ymin>
+			<xmax>496</xmax>
 			<ymax>190</ymax>
 		</bndbox>
 	</object>

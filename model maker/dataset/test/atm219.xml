@@ -1,0 +1,38 @@
+<annotation>
+	<folder>images</folder>
+	<filename>atm219.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\atm219.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>612</width>
+		<height>406</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>87</xmin>
+			<ymin>26</ymin>
+			<xmax>580</xmax>
+			<ymax>406</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>pistol</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>344</xmin>
+			<ymin>104</ymin>
+			<xmax>448</xmax>
+			<ymax>189</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,38 @@
+<annotation>
+	<folder>images</folder>
+	<filename>atm109.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\atm109.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>612</width>
+		<height>408</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>186</xmin>
+			<ymin>110</ymin>
+			<xmax>470</xmax>
+			<ymax>329</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>phone</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>173</xmin>
+			<ymin>247</ymin>
+			<xmax>215</xmax>
+			<ymax>276</ymax>
+		</bndbox>
+	</object>
+</annotation>

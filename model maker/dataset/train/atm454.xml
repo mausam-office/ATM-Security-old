@@ -1,7 +1,7 @@
 <annotation>
-	<folder>renamed</folder>
+	<folder>images</folder>
 	<filename>atm454.jpg</filename>
-	<path>D:\Anaconda\ATM Security\image data\renamed\atm454.jpg</path>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\atm454.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,9 +17,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>177</xmin>
+			<xmin>178</xmin>
 			<ymin>27</ymin>
-			<xmax>805</xmax>
+			<xmax>806</xmax>
 			<ymax>948</ymax>
 		</bndbox>
 	</object>

@@ -1,0 +1,38 @@
+<annotation>
+	<folder>images</folder>
+	<filename>atm148.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\atm148.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>408</width>
+		<height>612</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>person</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>57</xmin>
+			<ymin>23</ymin>
+			<xmax>380</xmax>
+			<ymax>523</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>driller</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>64</xmin>
+			<ymin>338</ymin>
+			<xmax>148</xmax>
+			<ymax>481</ymax>
+		</bndbox>
+	</object>
+</annotation>
