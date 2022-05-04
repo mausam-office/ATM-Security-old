@@ -152,14 +152,14 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             .build()
         val detector = ObjectDetector.createFromFileAndOptions(
             this,
-            "atm_v2_105_4_lite1_mm.tflite",
+            "atm_v3_66_4_lite1_sgd_cosine_Av1.tflite",
             options
         )
 
         // Step 3: Feed given image to the detector
         val results = detector.detect(image)
         runOnUiThread {
-            (findViewById<View>(R.id.tvDescription) as TextView).setText("Total Number of coins found are :- "+results.size)
+            (findViewById<View>(R.id.tvDescription) as TextView).setText("Total Number of items found are :- "+results.size)
 
         }
         // Step 4: Parse the detection result and show it
@@ -372,12 +372,14 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             canvas.drawRect(box.left, box.top, box.right, box.bottom, pen)
             Log.i(TAG, "drawDetectionResult: "+box)
 
+            Log.i(TAG, "intented text: " + it.text)
+
 
             val tagSize = Rect(0, 0, 0, 0)
 
             // calculate the right font size
             pen.style = Paint.Style.FILL_AND_STROKE
-            pen.color = Color.YELLOW
+            pen.color = Color.BLUE
             pen.strokeWidth = 2F
 
             pen.textSize = MAX_FONT_SIZE
@@ -389,10 +391,17 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
             var margin = (box.width() - tagSize.width()) / 2.0F
             if (margin < 0F) margin = 0F
+            //canvas.drawText(
+            //    it.text, box.left + margin,
+            //    box.top + tagSize.height().times(1F), pen
+            // )
+
+            // modified to draw text in bottom of the box
             canvas.drawText(
-                it.text, box.left + margin,
-                box.top + tagSize.height().times(1F), pen
+                it.text, box.left, box.bottom,
+                pen
             )
+
 
         }
         return outputBitmap
