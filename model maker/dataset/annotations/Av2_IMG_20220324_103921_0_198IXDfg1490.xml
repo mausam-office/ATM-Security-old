@@ -1,0 +1,38 @@
+<annotation>
+	<folder>images</folder>
+	<filename>Av2_IMG_20220324_103921_0_198IXDfg1490.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\Av2_IMG_20220324_103921_0_198IXDfg1490.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>861</width>
+		<height>682</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>screwdriver</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>61</xmin>
+			<ymin>336</ymin>
+			<xmax>710</xmax>
+			<ymax>490</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>screwdriver</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>408</xmin>
+			<ymin>49</ymin>
+			<xmax>464</xmax>
+			<ymax>401</ymax>
+		</bndbox>
+	</object>
+</annotation>

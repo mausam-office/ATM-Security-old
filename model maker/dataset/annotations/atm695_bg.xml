@@ -1,0 +1,14 @@
+<annotation verified="yes">
+	<folder>images</folder>
+	<filename>atm695_bg.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\atm695_bg.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>612</width>
+		<height>407</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>Av2_IMG_20220327_114254_0_185SsxYX2538.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\Av2_IMG_20220327_114254_0_185SsxYX2538.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>801</width>
+		<height>937</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>driller</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>147</xmin>
+			<ymin>212</ymin>
+			<xmax>658</xmax>
+			<ymax>644</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>atm_v3_102.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\atm_v3_102.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>268</width>
+		<height>188</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>knife</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>120</xmin>
+			<ymin>34</ymin>
+			<xmax>144</xmax>
+			<ymax>144</ymax>
+		</bndbox>
+	</object>
+</annotation>

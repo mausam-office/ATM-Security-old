@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<annotation>
+	<folder>images</folder>
+	<filename>IMG_20220324_120451_Av1_0_600pcSBf1859.jpg</filename>
+	<path>D:\Anaconda\ATM Security\image data\v2\images\IMG_20220324_120451_Av1_0_600pcSBf1859.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4000</width>
+		<height>2992</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mouse</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>149</xmin>
+			<ymin>165</ymin>
+			<xmax>522</xmax>
+			<ymax>380</ymax>
+		</bndbox>
+	</object>
+</annotation>
